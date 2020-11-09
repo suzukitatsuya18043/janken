@@ -26,7 +26,7 @@ public class Lec02Controller {
   }
 
   @PostMapping("/lec02")
-  public String lec02(@RequestParam final String loginuser,ModelMap model) {
+  public String lec02(@RequestParam final String loginuser, ModelMap model) {
     model.addAttribute("loginuser", loginuser);
     return "lec02.html";
   }
