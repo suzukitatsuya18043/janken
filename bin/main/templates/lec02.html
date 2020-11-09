@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="ja">
+
+<html>
 
 <head>
+  <h1>Lec02 GET!</h1>
+
   <meta charset="utf-8">
 </head>
 
 <body>
-  <h1>Lec02 GET!</h1>
-  <form action="lec02.html" method="post">
-    <p>
-      Hi $_POST["name"]
-      <a href="GU.html">グー</a>
-      <a href="THOKI.html">チョキ</a>
-      <a href="PA.html">パー</a>
-  </form>
+
+  <div th:if="${loginuser}">
+    Hi [[${loginuser}]]
+  </div>
 </body>
+
+</html>
+
