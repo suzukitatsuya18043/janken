@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import oit.is.z0968.kaizi.janken.model.Janken;
 
+
 @Controller
 public class Lec02Controller {
 
