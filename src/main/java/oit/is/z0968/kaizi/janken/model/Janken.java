@@ -1,7 +1,9 @@
 package oit.is.z0968.kaizi.janken.model;
 
 public class Janken {
+
   int player;
+
 
   public Janken(int player) {
     this.player = player;
@@ -22,6 +24,7 @@ public class Janken {
   public String jankenresult() {
     String result;
     if (player == 0) {
+
       result = "You Draw";
     } else if (player == 1) {
       result = "You Lose!!";
